@@ -3,7 +3,6 @@ import { Carousel, Card, Modal, Button } from "antd";
 import { homeCarouselContent, productCategories } from "../utils/Data";
 // import "./App.css"; // Import the CSS file
 
-const { Meta } = Card;
 
 const Home = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
