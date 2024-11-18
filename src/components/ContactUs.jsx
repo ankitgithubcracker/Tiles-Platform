@@ -19,10 +19,13 @@ const ContactUs = () => {
         </p>
         <h3>Reach us directly:</h3>
         <p>
-          📧 Email: <a href="mailto:contact@example.com">contact@example.com</a>
+          📧 Email: <a href="mailto:contact@example.com">anvitiles@gmail.com</a>
         </p>
         <p>
-          📞 Phone: <span>+91 (522) 123-4567</span>
+          📞 Phone: <span>+91 8853545165</span>
+        </p>
+        <p>
+          🌐 Address: <span>Baghauch Road, Fazilnagar, Kushinagar-274401</span>
         </p>
       </div>
 

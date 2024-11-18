@@ -17,9 +17,10 @@ const Footer = () => (
         <div style={styles.column}>
           <h3>Contact Us</h3>
           <ul style={styles.list}>
-            <li>Email: support@marbleandtiles.com</li>
-            <li>Phone: +1 (555) 123-4567</li>
-            <li>Address: 123 Stone Avenue, City, Country</li>
+            <li>Email: anvitiles@gmail.com</li>
+            <li>Phone: +91 8853545165</li>
+            <li> +91 7065268000</li>
+            <li>Address: Baghauch Road, Fazilnagar, Kushinagar-274401</li>
           </ul>
         </div>
         <div style={styles.column}>

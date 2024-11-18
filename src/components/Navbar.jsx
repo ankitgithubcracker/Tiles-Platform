@@ -1,17 +1,19 @@
 import React from "react";
-import { Menu } from "antd";
+import { Image, Menu } from "antd";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/Logo.svg"
 
 const Navbar = () => {
   return (
-    <div className="navbar" >
-      <div className="logo" >
-        <NavLink to="/" className="logoText" >
-          Marble & Tiles Co.
+    <div className="navbar">
+      <div className="logo">
+        <NavLink to="/" className="logoText">
+          <Image src={logo} width={40} />{" "}
+          <span>Avni Tiles & Decoder</span>
         </NavLink>
       </div>
       <Menu mode="horizontal" className="menu" theme="dark">
-        <div key="home" className="menuItem" >
+        <div key="home" className="menuItem">
           <NavLink
             to="/"
             style={({ isActive }) => ({
